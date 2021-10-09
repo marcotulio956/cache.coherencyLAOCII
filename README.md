@@ -5,9 +5,9 @@ In a multiprocessor system with a shared memory/address-space, a need for cohere
 between caches arises when one of its data is modified. There're diferent solutions that suit better each context.
 
 Centrilized Shared-Memory Architectures:
-	bandwidth needs increase as cpus grows, implies non-scalable
-	symmetrical multiprocessor(SMP)
-	snoopy(a.k.a bus watching) scheme
+        bandwidth needs increase as cpus grows, implies non-scalable;
+        symmetrical multiprocessor(SMP);
+        snoopy(a.k.a bus watching) scheme.
 
   Implemented Protocols: 
 		MSI: Basic cache coherency protocol, cache states update accordingly to bus(broadcasting data and issuing new states) and cpu(writes/reads)
@@ -23,9 +23,9 @@ Centrilized Shared-Memory Architectures:
 		S - read modifies cache(address required are valid in one of the caches and then shared), memory access is aborted.
 		I - read miss if tag isn't present, write-invalidate if other caches overwrites it. 
 Distributed:
-	physically distribuited
-	tipically non-uniform accesses time, asymmetrical
-	interconnection network
+	physically distribuited;
+	tipically non-uniform accesses time, asymmetrical;
+	interconnection network.
 
   Implemented Protocol: Directory scheme.
 Sync:
