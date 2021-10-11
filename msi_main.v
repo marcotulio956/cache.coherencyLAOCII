@@ -1,4 +1,4 @@
-module _aocII_Pratica4(
+module msi_main(
 	input clk
 );
 	wire core1_read, core2_read;//Cores outputs
