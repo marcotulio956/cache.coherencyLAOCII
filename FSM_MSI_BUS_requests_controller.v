@@ -1,4 +1,4 @@
-module FSM_MSI_BUS_requests_controler(
+module FSM_MSI_BUS_requests_controller(
 	input [1:0] state_in,
 	input bus_write_miss, 
 	input bus_read_miss, 
