@@ -39,6 +39,9 @@ the writes on bus since now you can't point the bus_reply of one cache(the new s
 number caches increases(there you have it! the directory protocol!). You can substitute the MSI implementation with MOESI after some ajustments. 
 
 ### MSI fsm
+![diagram1](https://github.com/MnoZombie956/cache.coherencyLAOCII/blob/main/imgs/fsm_msi.png?raw=false)
 ### MOESI fsm
+![diagram2](https://github.com/MnoZombie956/cache.coherencyLAOCII/blob/main/imgs/fsm_moesi.png?raw=false)
 ### Directory fsm
+![diagram3](https://github.com/MnoZombie956/cache.coherencyLAOCII/blob/main/imgs/fsm_dir.png?raw=false)
 
