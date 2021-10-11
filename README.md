@@ -27,6 +27,7 @@ between caches arises when one of its data is modified. There're diferent soluti
 About Sync:
   - In a Thread-Level parallelism context sync is needed for criticaly shared memory addresses accesses.
   - All these protocols assume that there is syncronicy and atomicity between operations.
+  - We can achive this by implementing a spin lock whithin the program code, if the ISA support such instructions(i.e. load-link and store-coditional).
 
 Caches and processors were add to demonstrate MSI, you might want to add a different cache if using the MOESI state machine so then
 the correct bus probing wire have a corresponding width to the new added states. How to connect/communicate caches and how to use the
