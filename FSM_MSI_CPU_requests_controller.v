@@ -1,4 +1,4 @@
-module FSM_MSI_CPU_requests_controler(
+module FSM_MSI_CPU_requests_controller(
 	input [1:0] state_in,
 	input cpu_write_hit, cpu_read_hit,
 	input cpu_write_miss, cpu_read_miss,
