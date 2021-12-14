@@ -45,3 +45,10 @@ number caches increases(there you have it! the directory protocol!). You can sub
 ### Directory fsm
 ![diagram3](https://github.com/MnoZombie956/cache.coherencyLAOCII/blob/main/imgs/fsm_dir.png?raw=false)
 
+### Blocking vs. nonBlocking Matrix Multiplication
+
+The blocking technique is welcome as it decreases L1 cache capacity failures and exploit other features which, in the long run, allow us to stop accumulating 
+a huge amount of time spent only with the latency to access different levels of the hierarchy. No need to change hardware to perform a better matrix multiplications.
+The submatrix B size(blocking factor) used in the multiplication must fit in your L1.
+![graph1](https://github.com/MnoZombie956/cache.coherencyLAOCII/blob/main/imgs/aocIII_tp02.png?raw=false)
+
