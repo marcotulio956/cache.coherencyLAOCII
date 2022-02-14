@@ -40,3 +40,4 @@ initial begin
         data[1] <= 8'b00011000;
         coherencyStates[1] <= 2'b10;
     end
+dusahduash
