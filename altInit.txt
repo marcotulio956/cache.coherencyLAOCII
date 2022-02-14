@@ -1,0 +1,43 @@
+initial begin
+        tag[0] <= 6'b000000; //100
+        data[0] <= 8'b00010000; //10
+        coherencyStates[0] <= 2'b11; // modified
+        ownersSharersList[0] <= 4'b1000;
+
+        tag[1] <= 6'b000001 ; //108
+        data[1] <= 8'b00001000; //08
+        coherencyStates[1] <= 2'b10; //Shared
+        ownersSharersList[1] <= 4'b1000;
+
+        tag[2] <= 6'b000010;//130
+        data[2] <= 8'b01101000; // 68
+        coherencyStates[2] <= 2'b11; //modified
+        ownersSharersList[2] <= 4'b1100;
+
+        tag[3] <= 6'b000011; //118
+        data[3] <= 8'b00011000; //18
+        coherencyStates[3] <= 2'b10; //shared
+        ownersSharersList[3] <= 4'b1100;
+    end
+
+PO
+initial begin
+        tag[0] <= 7'b0000000;
+        data[0] <= 8'b00010000;
+        coherencyStates[0] <= 2'b11;
+
+        tag[1] <= 7'b0000001;
+        data[1] <= 8'b00001000;
+        coherencyStates[1] <= 2'b10;
+    end
+p1
+initial begin
+        tag[0] <= 7'0000010;
+        data[0] <= 8'b01101000;
+        coherencyStates[0] <= 2'b11;
+
+        tag[1] <= 7'0000011;
+        data[1] <= 8'b00011000;
+        coherencyStates[1] <= 2'b10;
+    end
+dusahduash
