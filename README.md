@@ -40,6 +40,8 @@ number caches increases(there you have it! the directory protocol!). You can sub
 
 ### MSI fsm
 ![diagram1](https://github.com/MnoZombie956/cache.coherencyLAOCII/blob/main/imgs/fsm_msi.png?raw=false)
+### MESI fsm
+![diagram1](https://github.com/MnoZombie956/cache.coherencyLAOCII/blob/main/imgs/fsm_mesi.png?raw=false)
 ### MOESI fsm
 ![diagram2](https://github.com/MnoZombie956/cache.coherencyLAOCII/blob/main/imgs/fsm_moesi.png?raw=false)
 ### Directory fsm
