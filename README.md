@@ -1,5 +1,5 @@
 # cache.coherencyLAOCII
-### MSI with caches and processors, MOESI state machines, and Directory protocols.
+### MSI with caches and processors, MESI and MOESI state machines, and Directory protocols.
 
 In a multiprocessor system with a shared memory/address-space, a need for coherence(i.e program order preserved, atomic access, serial writes)
 between caches arises when one of its data is modified. There're diferent solutions that suit better each context.
